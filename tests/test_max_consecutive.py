@@ -11,6 +11,3 @@ def test_all_equal():
 
 def test_mixed_but_bug_not_exposed():
     assert max_consecutive_items([1, 1, 2, 2]) == 2
-
-# def test_longest_run_after_a_break():
-#     assert max_consecutive_items([1, 1, 2, 3, 3, 3]) == 3
